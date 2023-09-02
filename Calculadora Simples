@@ -1,0 +1,37 @@
+primeirovalor = input('Digite o Primeiro Valor da Operação: ')
+
+primeirovalor = float(primeirovalor)
+
+segundovalor = input('Digite o Segundo valor da Operação: ')
+
+segundovalor = float(segundovalor)
+
+print('      ')
+
+soma = primeirovalor + segundovalor
+print('A Soma é: ',  soma)
+
+print("      ")
+
+subtracao = primeirovalor - segundovalor
+print('A Subtração é: ' , subtracao)
+
+print("     ")
+
+
+multiplicacao = primeirovalor * segundovalor
+print('A Multiplicação é: ' ,  multiplicacao)
+
+print("     ")
+
+
+divisao = primeirovalor / segundovalor
+print('A divisão é: ' ,  divisao)
+
+print("    ")
+
+
+
+print('Obrigado por Executar Esse Código :) ')
+ 
+
