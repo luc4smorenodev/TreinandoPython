@@ -1,0 +1,12 @@
+velocidade = input('Digite sua Velocidade: ')
+
+velocidade = int(velocidade)
+
+if velocidade > 110:
+    print('Velocidade Acima Do Permitido')
+
+elif velocidade < 60:
+    print('Velocidade Abaixo Do Permitido')
+    
+else:
+    print('Velocidade Padrão')
