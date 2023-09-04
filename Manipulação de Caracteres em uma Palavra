@@ -1,0 +1,4 @@
+palavra = input('Digite sua Palavra: ')
+
+for espaco in palavra:
+  print(f' {espaco} ' ,  end ='')
