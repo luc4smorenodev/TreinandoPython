@@ -1,0 +1,14 @@
+compraconfirmada = True
+
+dadosdacompra = 'Compra No Valor de R$ 12.50 e Entrega Confirmada'
+
+
+
+for enviar in range(3):
+  if compraconfirmada:
+    print(dadosdacompra)
+    print('Detalhes Enviados ao Seu Email.')
+    break
+  
+else:
+  print('Falha Na Compra')
