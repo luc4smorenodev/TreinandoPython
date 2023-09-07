@@ -1,0 +1,5 @@
+idade = input('Digite Sua Idade: ')
+idade = int(idade)
+
+
+resultado = 'Voto Permitido' if idade >= 16 else 'Voto Não Permitido'
